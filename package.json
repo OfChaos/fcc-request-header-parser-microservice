@@ -1,0 +1,26 @@
+{
+  "name": "fcc-request-header-parser-microservice",
+  "version": "1.0.0",
+  "description": "Returns the user's ip address, language and OS via JSON.",
+  "main": "server.js",
+  "dependencies": {
+    "socket.io": "^0.9.17",
+    "async": "^0.2.10",
+    "express": "^3.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfChaos/fcc-request-header-parser-microservice.git"
+  },
+  "author": "Jeremy Hoogstraten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OfChaos/fcc-request-header-parser-microservice/issues"
+  },
+  "homepage": "https://github.com/OfChaos/fcc-request-header-parser-microservice#readme"
+}
